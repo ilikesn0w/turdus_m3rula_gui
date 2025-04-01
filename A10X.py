@@ -147,7 +147,6 @@ def restore_turdus_merula_ipsw():
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 root = tk.Tk()
-root.resizable(False, False)
 root.title("Turdus Merula GUI (A10(X) Untethered)")
 
 logo = tk.PhotoImage(file="./resources/png/Logo400x400.png")

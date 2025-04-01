@@ -188,7 +188,6 @@ def tethered_boot():
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 root = tk.Tk()
-root.resizable(False, False)
 root.title("Turdus Merula GUI (A9(X) Tethered)")
 
 logo = tk.PhotoImage(file="./resources/png/Logo400x400.png")

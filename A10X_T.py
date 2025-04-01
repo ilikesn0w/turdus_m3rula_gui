@@ -143,7 +143,12 @@ def tethered_boot():
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 root = tk.Tk()
+root.resizable(False, False)
 root.title("Turdus Merula GUI (A10(X) Tethered)")
+
+logo = tk.PhotoImage(file="./resources/png/Logo400x400.png")
+logo_label = tk.Label(root, image=logo)
+logo_label.place(x=135, y=0)
 
 perm_button = tk.Button(root, text="Fix permissions", command=fix_permissions)
 perm_button.pack(pady=10)

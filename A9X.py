@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 ##
 # Copyright (c) 2025, ilikesn0w
 ##

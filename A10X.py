@@ -1,7 +1,15 @@
 #!/usr/bin/python3
 
-##
-# Copyright (c) 2025, ilikesn0w
+## @file
+#
+# A10X.py
+#
+# GUI for turdus_m3rula SEP exploit
+#
+# Copyright (c) 2025-2026, ilikesn0w. All rights reserved.
+#
+# SPDX-License-Identifier: GPL-3.0-only
+#
 ##
 
 import tkinter as tk
